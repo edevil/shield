@@ -177,7 +177,7 @@ The package can be installed as:
 ### Standalone
 
     git clone git@github.com:mustafaturan/shield.git
-    cd shields
+    cd shield
     mix deps.get
     mix ecto.create -r Authable.Repo
     mix ecto.migrate -r Authable.Repo
